@@ -1,0 +1,14 @@
+{
+  "_comment": "Copy this file to config.json and edit. config.json is gitignored.",
+
+  "data_folder": "C:/data/dicom_standard",
+  "log_folder": null,
+
+  "standard_db": "dicom_standard_parsed_2025c.db",
+
+  "excel_export_path": null,
+
+  "credentials_file": "C:/path/outside/this/repo/posda_pw.json",
+
+  "extra_sop_csv": "C:/path/to/sop_classes.csv"
+}

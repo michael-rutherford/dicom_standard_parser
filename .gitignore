@@ -1,0 +1,62 @@
+# ---------------------------------------------------------------------------
+# Local configuration and credentials
+# ---------------------------------------------------------------------------
+config.json
+*_pw.json
+posda_pw.json
+
+# ---------------------------------------------------------------------------
+# Not for publication
+# ---------------------------------------------------------------------------
+
+# Posda/TCIA integration scripts -- infrastructure-specific
+posda/
+
+# Parsed database snapshots, logs, and the TCIA private tag KB dump
+parsed/
+
+# Private-tag working database: contains data pulled from the live TCIA and
+# ARIES private_tag_kb instances, including the tcia_pt_insert/tcia_pt_update
+# work queues.
+private_tags/database/
+
+# Clunie .tpl inputs are extracted from a local dciodvfy install (see note.txt)
+private_tags/clunie/files/
+
+# ---------------------------------------------------------------------------
+# Editor / IDE local state (embeds absolute paths)
+# ---------------------------------------------------------------------------
+.vs/
+.vscode/
+*.pyproj.user
+*.suo
+*.user
+.idea/
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# ---------------------------------------------------------------------------
+# Data artifacts
+# ---------------------------------------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.xlsx
+*.log
+logs/
+
+# ---------------------------------------------------------------------------
+# OS
+# ---------------------------------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
